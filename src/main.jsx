@@ -1,0 +1,26 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import {  BrowserRouter as Router } from 'react-router-dom'
+import AppRoutes from './AppRoutes';
+
+// Chakra UI
+import { ChakraProvider, extendTheme } from '@chakra-ui/react';
+// CSS
+import "./index.css"
+
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+   <ChakraProvider
+   theme={
+    extendTheme(
+      {config:
+      {useSystemColorMode: false,
+       initialColorMode: "dark"}})}>
+    <Router>
+      <AppRoutes/>
+    </Router>
+    </ChakraProvider>
+  </React.StrictMode>,
+)
