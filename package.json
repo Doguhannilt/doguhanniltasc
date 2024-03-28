@@ -1,5 +1,4 @@
 {
-  "homepage": "https://doguhannilt.github.io/doguhanniltasc/",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "deploy":"gh-pages -d dist",
-    "predeploy":"npm run build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@canvasjs/react-charts": "^1.0.2",
