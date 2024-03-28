@@ -6,7 +6,7 @@ import AppRoutes from './AppRoutes';
 // Chakra UI
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 // CSS
-import "./index.css"
+import "./index.css/"
 
 
 
