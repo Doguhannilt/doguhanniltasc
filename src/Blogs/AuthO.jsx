@@ -107,7 +107,7 @@ const Auth0 = () => {
           </span>
       </div>
       <span>First of all, you need to sign up for the AUTH0 website. We are going to create our API with the help of this website.</span>
-      <div className='flex justify-center'><img className = 'mt-4' src={signup}/></div>
+      <div className='flex justify-center h-full w-full'><img className = 'mt-4' src={signup}/></div>
       <div className='mt-4'><span>When you sign up, this user interface should welcome you. We are going to use the CREATE APPLICATION button which has a blue background.</span></div>
       <Divider className='mt-10'/>
            {/* Section 3 */}
@@ -208,7 +208,7 @@ const Auth0 = () => {
         AUTH0 INTEGRATION
         </span>
       </div>
-      <Code className='h-full w-full' color='gray.200' isExternal><pre>{first_code}</pre></Code>
+      <Code className='h-full w-full ' color='gray.200' isExternal><pre className='text-wrap'>{first_code}</pre></Code>
       <div className='mt-10'><span>And, congratulations! Finally, AUTH0 is integrated with your app. And here is the important thing for you: Your passwords must stay safe! So you can’t add them directly to your project. You should use .ENV file. here is the link for you to learn how to manage:</span></div>
 
 

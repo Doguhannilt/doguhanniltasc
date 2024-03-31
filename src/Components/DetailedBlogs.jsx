@@ -17,7 +17,8 @@ const DetailedBlogs = () => {
   const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1);
 
   return (
-    <div className='grid xl:grid xl:grid-cols-2 grid-cols-1 md:grid md:grid-cols-1 mt-20 xl:pl-60 mb-10'>
+    <div className='flex xl:grid xl:grid-cols-2 flex-col md:grid md:grid-cols-2  md:gap-6 items-center justify-center h-full w-full md:pl-60  mt-20 mb-10'>
+        <p className='text-2xl md:hidden font-mono font-bold '>My Blogs</p>
       {getVisibleBlogs().map(blog => (
         <div key={blog.id} className='mt-4'>
           <Link to={`/blogs/${blog.id}`}>

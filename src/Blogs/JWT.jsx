@@ -221,19 +221,19 @@ const JWT = () => {
       </div>
     </div>
 
-      <div><span className='font-bold'>Example:</span></div>
-      <Code className='w-full h-full'><pre className='mt-6 '>{first_code}</pre></Code>
+      <div><span className='font-bold hidden md:block'>Example:</span></div>
+      <Code className=' md:w-full md:h-full'><pre className='hidden md:block md:w-full md:h-full mt-6 '>{first_code}</pre></Code>
 
-      <div className='mt-6'>
+      <div className='md:mt-6'>
         <h2><u>Payload Decoding:</u></h2>
-        <p className='mb-4'>If the signature is valid, the server decodes the JWT’s Payload to retrieve the user’s claims and information. This information is used to authenticate the user’s identity and determine access rights to the requested resource.</p>
+        <p className='md:mb-4'>If the signature is valid, the server decodes the JWT’s Payload to retrieve the user’s claims and information. This information is used to authenticate the user’s identity and determine access rights to the requested resource.</p>
       </div>
-      <Code className='h-full w-full'><pre>{second_code}</pre></Code>
+      <Code className='hidden md:block md:h-full md:w-full'><pre className='hidden md:block md:h-full md:w-full'>{second_code}</pre></Code>
 
 
-      <div className='mt-10 mb-4'>
-        <div className='text-2xl mb-4'><span>A CRUD EXAMPLE WITH JWT IN JAVASCRIPT</span></div>
-        <Code colorScheme='blue' className=' w-full h-full'><pre>{third_code}</pre></Code>
+      <div className='md:mt-10 mb-4'>
+        <div className='md:text-2xl md:mb-4 hidden md:block md:h-full md:w-full'><span>A CRUD EXAMPLE WITH JWT IN JAVASCRIPT</span></div>
+        <Code colorScheme='blue' className=' md:w-full md:h-full hidden md:block'><pre className='hidden md:block md:h-full md:w-full'>{third_code}</pre></Code>
       </div>
 
       <span className=''>An example repository used JWT for the login system:</span>

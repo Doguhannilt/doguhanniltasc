@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Card from '../Images/dou.jpg'
+
 import { Text } from '@chakra-ui/react'
 import Sidebar from '../pages/Sidebar'
 
@@ -9,11 +9,9 @@ const About = () => {
   return (
     <div className='xl:pl-58 xl:pr-60 pb-10'>
      <div className='mt-10 xl:ml-40 '>
-        <div className='flex  lg:justify-center lg:text-center lg:self-center lg:gap-10'>
+        <div className='flex  lg:justify-center text-center lg:text-center lg:self-center lg:gap-10'>
 
-        <img src={Card} 
-        alt='Logo'
-        className='rounded-full md:h-20 xl:h-full xl:mt-20  xl:block hidden animate-third_long_right-slide'/>
+
         <div className='xl:mt-20 xl:pt-20'>
           <div className='flex justify-center'>
             <span className='xl:text-3xl mt-2 md:mt-0 text-xl font-mono '>About Me</span>
