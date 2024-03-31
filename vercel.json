@@ -1,6 +1,7 @@
 {
-    "rewrites":[
-       {"source":"/blogs/([0-9]+)", "destination":"/blogs/[id]"},
-       {"source":"/(.*)", "destination":"/"}
+    "rewrites": [
+      { "source": "/blogs/([0-9]+)", "destination": "/blogs/[id]" },
+      { "source": "/(.*)", "destination": "/index.html" }
     ]
   }
+  
