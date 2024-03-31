@@ -1,8 +1,33 @@
-# React + Vite
+# My Blog & Portfolio Website (Doguhanniltasc)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my blog and portfolio website! This project combines a blog and a portfolio to showcase my projects, articles, and more.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Step | Command                            |
+|------|------------------------------------|
+| 1    | Clone this repository:             |
+|      | `git clone https://github.com/Doguhannilt/doguhanniltasc/tree/master` |
+| 2    | Navigate to the project directory: |
+|      | `cd my-blog-portfolio`             |
+| 3    | Install dependencies:              |
+|      | `npm install`                      |
+
+## Usage
+
+| Action                      | Command               |
+|-----------------------------|-----------------------|
+| Start development server    | `npm start`           |
+| Build for production        | `npm run build`       |
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin feature/my-new-feature`
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use and modify it according to your needs.
