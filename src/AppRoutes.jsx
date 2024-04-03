@@ -14,6 +14,8 @@ import BasicDokerization from './Blogs/BasicDokerization'
 import CoffeAddiction from './Blogs/CoffeAddiction'
 
 
+
+
 const AppRoutes = () => {
     return(
         <Routes>
@@ -25,6 +27,8 @@ const AppRoutes = () => {
             <Route path="blogs/4" element={<Layout><WhatisRedux/></Layout>}></Route>
             <Route path="blogs/5" element={<Layout><BasicDokerization/></Layout>}></Route>
             <Route path="blogs/6" element={<Layout><CoffeAddiction/></Layout>}></Route>
+            
+
         </Routes>
     )
 }

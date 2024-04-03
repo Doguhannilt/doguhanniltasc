@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import blog_introduction from '../Images/Blog_Images/auth0/introduction.jpg'
 import signup from  '../Images/Blog_Images/auth0/text1.jpg'
@@ -8,8 +8,16 @@ import app_urs from '../Images/Blog_Images/auth0/text4.jpg'
 import login_url from '../Images/Blog_Images/auth0/text5.jpg'
 import { Code, Divider, Link} from '@chakra-ui/react'
 
+import hljs from 'highlight.js/lib/core';
+import 'highlight.js/styles/dark.css'
+import javascript from 'highlight.js/lib/languages/javascript';
+hljs.registerLanguage('javascript', javascript);
 
 const Auth0 = () => {
+  useEffect(() => {
+    hljs.highlightAll();
+  }, []);
+
 
   const first_code = `// Import the necessary modules from React and react-router-dom
   import React from 'react';
@@ -208,7 +216,13 @@ const Auth0 = () => {
         AUTH0 INTEGRATION
         </span>
       </div>
-      <Code className='h-full w-full ' color='gray.200' isExternal><pre className='text-wrap'>{first_code}</pre></Code>
+      <p className='h-full w-full '>
+      <pre className='text-wrap'>
+          <code className='hljs language-javascript'>
+            {first_code}
+          </code>
+        </pre>
+        </p>
       <div className='mt-10'><span>And, congratulations! Finally, AUTH0 is integrated with your app. And here is the important thing for you: Your passwords must stay safe! So you can’t add them directly to your project. You should use .ENV file. here is the link for you to learn how to manage:</span></div>
 
 

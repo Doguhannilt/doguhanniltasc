@@ -1,9 +1,9 @@
 export const blogs = [
     { id: 1, title: "What is JWT (Jsonwebtoken)", content: "JWT (JSON Web Token) is a standard used for authentication and authorization in web applications. JWT is commonly used to manage user sessions, authenticate user identities, and ensure secure communication. Essentially, the architecture of JWT consists of three main components: Header, Payload, and Signature." },
-    { id: 2, title: "How to create a login system using AUTH0", content: "AUTH0, a popular identity and access management platform can be used to create a robust login system for your web or mobile application. Here’s a step-by-step guide on how to create a basic login system using AUTH0." },
-    { id: 3, title: "How to create a responsive form using useForm()", content: "Coming Soon..." },
-    { id: 4, title: "Redux and what?" ,  content: "Coming Soon..." },
-    { id: 5, title: "Basic Dokerization" ,content: "Coming Soon..." },
-    { id: 6, title: "Coffee Addiction", content: "Coming Soon..." }
+    { id: 2, title: "How to create a login system using AUTH0", content: "AUTH0, a popular identity and access management platform can be used to create a robust login system for your web or mobile application. Here is a step-by-step guide on how to create a basic login system using AUTH0." },
+    { id: 3, title: "How to create a responsive form using useForm()", content: "To create a form using the useForm() hook in React, you'll first need to set up your React component with the necessary imports and the form structure. " },
+    { id: 4, title: "Redux and what?" ,  content: "Redux is indeed a crucial skill for modern web development, especially for those working with React or other front-end frameworks. Redux is a predictable state container for JavaScript apps, primarily used with React but also compatible with other libraries and frameworks." },
+    { id: 5, title: "Basic Dockerization" ,content: "We use Dockerization to enhance application portability, simplify deployment processes, and ensure consistent environments across different platforms. By encapsulating applications and their dependencies into Docker containers, we achieve greater flexibility, scalability, and reproducibility in software deployment." },
+    { id: 6, title: "Coffee Addiction", content: "Coffee addiction has become somewhat of a traditional ritual for many developers, serving as a fuel for late-night coding sessions and intense problem-solving marathons. However, while the caffeine boost can be beneficial in keeping focus and productivity high, it's essential to strike a balance and be mindful of potential downsides." }
   ];
 
