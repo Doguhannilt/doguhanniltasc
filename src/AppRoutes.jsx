@@ -4,6 +4,8 @@ import {Routes, Route, Navigate} from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import Layout from './layouts/Layout'
 import DetailedBlogs from './Components/DetailedBlogs'
+import Resume from './pages/Resume'
+
 
 // BLOGS
 import JWT from './Blogs/JWT'
@@ -16,11 +18,13 @@ import CoffeAddiction from './Blogs/CoffeAddiction'
 
 
 
+
 const AppRoutes = () => {
     return(
         <Routes>
             <Route  path = "/"  element={<Layout><HomePage /></Layout>}/>
             <Route path="pages/blogs" element={<Layout><DetailedBlogs/></Layout>}></Route>
+            <Route path="Resume" element = {<Layout><Resume /></Layout>}></Route>
             <Route path="blogs/1" element={<Layout><JWT/></Layout>}></Route>
             <Route path="blogs/2" element={<Layout><Auth0/></Layout>}></Route>
             <Route path="blogs/3" element={<Layout><UseForm/></Layout>}></Route>
