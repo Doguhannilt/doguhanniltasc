@@ -9,7 +9,7 @@ Welcome to my blog and portfolio website! This project combines a blog and a por
 | 1    | Clone this repository:             |
 |      | `git clone https://github.com/Doguhannilt/doguhanniltasc/tree/master` |
 | 2    | Navigate to the project directory: |
-|      | `cd my-blog-portfolio`             |
+|      | `cd blog`                          |
 | 3    | Install dependencies:              |
 |      | `npm install`                      |
 
@@ -17,7 +17,7 @@ Welcome to my blog and portfolio website! This project combines a blog and a por
 
 | Action                      | Command               |
 |-----------------------------|-----------------------|
-| Start development server    | `npm start`           |
+| Start development server    | `npm run dev`         |
 | Build for production        | `npm run build`       |
 
 ## Contributing
