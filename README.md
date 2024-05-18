@@ -24,7 +24,7 @@ Welcome to my blog and portfolio website! This project combines a blog and a por
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
+3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin feature/my-new-feature`
 5. Submit a pull request.
 
