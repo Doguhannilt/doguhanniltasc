@@ -2,9 +2,6 @@ import React from 'react'
 
 import { LiaExternalLinkAltSolid } from "react-icons/lia";
 import { Link } from 'react-router-dom';
-import SearchPopup from './SearchPopup';
-
-
 
 const Blogs = () => {
   return (
