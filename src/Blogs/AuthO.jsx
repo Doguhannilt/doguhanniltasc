@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 
-import blog_introduction from '../Images/Blog_Images/auth0/introduction.jpg'
 import signup from  '../Images/Blog_Images/auth0/text1.jpg'
 import create_application from  '../Images/Blog_Images/auth0/text2.jpg'
 import basic_information from '../Images/Blog_Images/auth0/text3.jpg'

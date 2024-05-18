@@ -1,13 +1,11 @@
-import { Button, Divider, useColorMode } from '@chakra-ui/react'
+import { Divider } from '@chakra-ui/react'
 import React from 'react'
-import { Link } from 'react-router-dom'
 import GithubStats from '../Components/GithubStats'
 import About from '../Components/About'
 import Skills from '../Components/Skills'
 import Blogs from '../Components/Blogs'
-import SearchPopup_detailed from '../Components/SearchPopup'
 import SearchPopup from '../Components/SearchPopup'
-import Sidebar from './Sidebar'
+
 
 
 const HomePage = () => {
