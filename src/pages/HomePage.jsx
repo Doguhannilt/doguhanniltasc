@@ -17,17 +17,17 @@ const HomePage = () => {
       <Divider/>
       <SearchPopup />
       <Divider />
-      <span className='flex justify-center pt-10 text-3xl font-bold font-mono'>TOP PROJECTS</span>
+      <span className='flex justify-center pt-10 text-3xl text-white font-bold font-mono'>TOP PROJECTS</span>
       <Projects/>
       <Divider/>
       <Blogs />
       <Divider />
-      <span className='flex justify-center pt-10 text-3xl font-bold font-mono'>MY GITHUB STATS</span>
+      <span className='flex justify-center pt-10 text-3xl text-white font-bold font-mono'>MY GITHUB STATS</span>
       <GithubStats />
       <Divider />
       <ProjectsGraph/>
       <Divider/>
-      <span className='flex justify-center pt-10 text-3xl font-bold font-mono'>I know...</span>
+      <span className='flex justify-center pt-10 text-3xl text-white font-bold font-mono'>I know...</span>
       <Skills />
       
      
