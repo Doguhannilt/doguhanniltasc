@@ -48,11 +48,13 @@ const Projects = () => {
                         variants={cardVariants}
                         transition={{ duration: 0.5, delay: index * 0.2 }}
                     >
+                        <a href={project.link}>
                         <img 
                             src={project.image} 
                             alt={project.name} 
                             className="w-full h-48 object-cover"
                         />
+                            </a>
                         <div className="p-6">
                             <h3 className="text-xl font-semibold text-white mb-2">{project.name}</h3>
                             <p className="text-gray-300">{project.description}</p>
