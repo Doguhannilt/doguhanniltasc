@@ -20,6 +20,7 @@ const HomePage = () => {
       <span className='flex justify-center pt-10 text-3xl text-white font-bold font-mono'>TOP PROJECTS</span>
       <Projects/>
       <Divider/>
+      <span className='flex justify-center pt-10 text-3xl text-white font-bold font-mono'>BLOGS</span>
       <Blogs />
       <Divider />
       <span className='flex justify-center pt-10 text-3xl text-white font-bold font-mono'>MY GITHUB STATS</span>
