@@ -38,10 +38,10 @@ const Skills = () => {
         </Thead>
         <Tbody>
           {skillsData.map((item, index) => (
-            <Tr key={index}>
-              <Td>{item.category}</Td>
-              <Td>{item.description}</Td>
-              <Td isNumeric>{item.rank || '-'}</Td>
+            <Tr key={index} className="text-white">
+              <Td className="text-white">{item.category}</Td>
+              <Td className="text-white">{item.description}</Td>
+              <Td className="text-white" isNumeric>{item.rank || '-'}</Td>
             </Tr>
           ))}
         </Tbody>
