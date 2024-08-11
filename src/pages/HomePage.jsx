@@ -7,20 +7,21 @@ import Blogs from '../Components/Blogs'
 import SearchPopup from '../Components/SearchPopup'
 import Projects from '../Components/Projects'
 import ProjectsGraph from '../Components/ProjectsGraph'
+import SkillLogos from '../Components/SkillLogos'
 
 
 
 const HomePage = () => {
   return (
     <div className="bg-black">
-      <About/>
+      <About />
       <Divider/>
       <SearchPopup />
       <Divider />
       <span className='flex justify-center pt-10 text-3xl text-white font-bold font-mono'>TOP PROJECTS</span>
+      <span  className=' flex justify-center text-sm text-gray-600'><a href="https://github.com/Doguhannilt?tab=repositories">You Want More?</a></span>
       <Projects/>
       <Divider/>
-      <span className='flex justify-center pt-10 text-3xl text-white font-bold font-mono'>BLOGS</span>
       <Blogs />
       <Divider />
       <span className='flex justify-center pt-10 text-3xl text-white font-bold font-mono'>MY GITHUB STATS</span>

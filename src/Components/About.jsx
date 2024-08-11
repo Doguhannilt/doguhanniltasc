@@ -73,7 +73,7 @@ const About = () => {
           {isExpanded ? 'Show Less' : 'Show More'}
         </button>
       </div>
-      <div className="font-mono px-4 py-16 xl:ml-30 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 text-black text-white text-center xl:ml-40">
+      <div className="font-mono px-4 py-16 xl:ml-30 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24  text-white text-center xl:ml-40">
         <div className="grid grid-cols-2 row-gap-8 md:grid-cols-4">
           <Counter targetValue={20} label="AGE" />
           <Counter targetValue={4} label="Developer Career (years)" />

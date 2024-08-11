@@ -35,7 +35,7 @@ const Blogs = () => {
 
     return (
         <div className="bg-black py-10">
-            <div className='mb-2 flex text-xl justify-center lg:text-3xl xl:font-bold xl:pt-8 font-mono cursor-pointer text-white'>
+            <div className='mb-2 flex text-xl justify-center lg:text-3xl xl:font-bold xl:pt-4 font-mono cursor-pointer text-white'>
                 <div className='md:grid hidden md:grid-rows-2'>
                     <span>READ MY BLOGS</span>
                 </div>
