@@ -23,7 +23,7 @@ const useForm = () => {
   
 
   return (
-    <div className='xl:pl-60 xl:pr-60 font-mono'>
+    <div className='text-white xl:pl-60 xl:pr-60 font-mono'>
       {/* HEADER */}
       <div className='text-3xl mt-10 mb-4'>
         <h1>Create a form using useForm()</h1>

@@ -3,7 +3,7 @@ import { Box, SkeletonCircle, SkeletonText, Spinner } from '@chakra-ui/react'
 
 const CoffeAddiction = () => {
   return (
-    <div>
+    <div className="text-white">
               {/* HEADER */}
       <div className='text-3xl  mt-10 font-mono'>
       <h1>My Coffee Addiction ☕ (Short Article)</h1>

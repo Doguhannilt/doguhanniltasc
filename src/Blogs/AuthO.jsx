@@ -94,7 +94,7 @@ const Auth0 = () => {
   // Export the App component as the default export
   export default App;`
   return (
-    <div className='xl:pl-60 xl:pr-60 font-mono'>
+    <div className='xl:pl-60 xl:pr-60 text-white font-mono'>
             {/* HEADER */}
       <div className='text-3xl  mt-10 mb-4'>
         <h1>How to create a login system using AUTH0</h1>

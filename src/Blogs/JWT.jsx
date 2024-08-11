@@ -150,7 +150,7 @@ const JWT = () => {
   }, []);
   
   return (
-    <div className='xl:pl-60 xl:pr-60 font-mono'>
+    <div className='xl:pl-60 xl:pr-60 font-mono text-white'>
       
       {/* HEADER */}
       <div className='text-3xl  mt-10'>

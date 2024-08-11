@@ -25,7 +25,7 @@ const SearchPopup = () => {
     };
   
     return (
-      <div className="search-bar grid justify-center w-full mb-4 mt-10 md:mt-20">
+      <div className="search-bar grid justify-center w-full mb-4  mt-10 md:mt-10">
         <Input
           type="text"
           value={searchTerm}
