@@ -46,7 +46,7 @@ const Blogs = () => {
                 </span>
             </div>
 
-            <div className='flex flex-wrap justify-center gap-6 px-4'>
+            <div className='flex flex-wrap justify-center bg-transparent  gap-6 px-4'>
                 {blogs.map((blog, index) => (
                     <motion.div
                         key={index}
@@ -57,7 +57,7 @@ const Blogs = () => {
                         variants={cardVariants}
                         transition={{ duration: 0.6, delay: index * 0.2 }}
                     >
-                        <Link to={blog.to} className="block h-60 max-w-sm p-6 hover:h-80 bg-white  hover:duration-300 duration-300 border-gray-200 rounded-lg shadow bg-transparent">
+                        <Link to={blog.to} className="block h-60 max-w-sm p-6 hover:h-80 bg-primary  hover:duration-300 duration-300 border-gray-200 rounded-lg shadow bg-transparent">
                             <div className="relative">
                                 <h5 className="mb-2 text-2xl font-bold  text-gray-900 dark:text-white">{blog.title}</h5>
                                 <p className="font-normal text-gray-700  dark:text-gray-400">{blog.description}</p>
