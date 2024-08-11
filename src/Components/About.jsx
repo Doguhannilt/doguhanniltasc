@@ -33,13 +33,13 @@ const About = () => {
 
   return (
     <div
-      className='md:xl:pl-58 md:xl:pr-60 md:pb-10  mt-2  lg:block bg-cover  md:object-cover rounded-2xl mb-2 md:mb-0 md:rounded-lg text-center'
+      className='md:xl:pl-58 md:xl:pr-60 md:pb-10  mt-2  lg:block bg-cover    md:object-cover rounded-2xl mb-2 md:mb-0 md:rounded-lg text-center'
       style={{
-        backgroundImage: "url('https://images.pexels.com/photos/10111269/pexels-photo-10111269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"
+       // backgroundImage: "url('https://images.pexels.com/photos/10111269/pexels-photo-10111269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"
       }}
     >
 
-      <div className='md:mt-10 md:xl:ml-40 text-black font-bold md:text-gray-700 md:font-bold md:text-center md:xl:text-2xl'>
+      <div className='md:mt-10 md:xl:ml-40 text-white font-bold md:text-white md:font-bold md:text-center md:xl:text-2xl'>
       <motion.h2
         className="text-2xl font-bold mb-4 text-center pt-10 xl:ml-20"
         initial={{ opacity: 0, y: 20 }}

@@ -1,53 +1,30 @@
-import React from 'react'
-
-import {
-  Table,
-  Thead,
-  Tbody,
-  Tr,
-  Th,
-  Td,
-  TableContainer,
-} from '@chakra-ui/react'
-
-import { skilledBlog } from '../Content/blogs';
+import React from 'react';
+import { Bar } from 'react-chartjs-2';
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
+import { motion } from 'framer-motion';
 
 
-const skillsData = [
-  { category: 'Languages', description: 'Python, JavaScript', rank: '4' },
-  { category: 'Web Development', description: 'React, Node.js, Express.js, MongoDB, Redux, RTK Query, Docker', rank: '3' },
-  { category: 'App Development', description: 'React-Native', rank: '2' },
-  { category: 'ML Concepts', description: 'Regression, Classification', rank: '4' },
-  { category: 'DL Concepts', description: 'Basic NLP Techniques', rank: '1' },
-  { category: 'Version Control', description: 'Git', rank: '5' },
-  { category: 'Database', description: 'MongoDB, MySQL', rank: '4' },
-  { category: 'CSS Frameworks', description: 'TailwindCSS, ChakraUI', rank: '5' },
-  { category: 'IDE', description: 'Visual Studio, Jupyter Notebook, PopSQL, Google Colab', rank: '5' },
-];
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
+
+import { skillsData } from '../Data/Chart/SkillsChart';
+import { chartData, chartOptions } from '../Data/Chart/SkillsChart';
 
 const Skills = () => {
   return (
-    <TableContainer>
-      <Table variant='striped' colorScheme='teal' className="text-white">
-        <Thead>
-          <Tr>
-            <Th>Category</Th>
-            <Th>Description</Th>
-            <Th isNumeric>Rank</Th>
-          </Tr>
-        </Thead>
-        <Tbody>
-          {skillsData.map((item, index) => (
-            <Tr key={index} className="text-white">
-              <Td className="text-white">{item.category}</Td>
-              <Td className="text-white">{item.description}</Td>
-              <Td className="text-white" isNumeric>{item.rank || '-'}</Td>
-            </Tr>
-          ))}
-        </Tbody>
-      </Table>
-    </TableContainer>
+    <div className="py-10">
+      <div className="text-center text-white mb-8">
+        <h2 className="text-2xl font-bold text-white">Skills and Proficiency Levels</h2>
+      </div>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="px-4 h-full w-full text-white"
+      >
+        <Bar data={chartData} options={chartOptions} />
+      </motion.div>
+    </div>
   );
 };
 
-export default Skills
+export default Skills;
