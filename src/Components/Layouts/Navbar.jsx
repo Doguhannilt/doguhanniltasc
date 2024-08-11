@@ -11,8 +11,6 @@ import { FaGithub } from "react-icons/fa";
 import { GetEmail } from '../../utils/Utils';
 import { pages } from '../../Content/blogs';
 
-
-
 const Navbar = () => {
   return (
     <div className=' '>
@@ -25,7 +23,8 @@ const Navbar = () => {
         <span onClick={GetEmail} className='md:hover:text-3xl  md:text-2xl cursor-pointer  hover:text-xl  text-white font-bold md:font-thin hover:duration-300  backdrop-brightness-200 duration-300 '>Contact</span>
           <span ><a href ="https://open.spotify.com/user/rmo45iv7b4zd9l3259bhfemti" target='_blank'><FiHeadphones  className='hidden text-white  md:block md:mt-2 cursor-pointer md:size-6   hover:text-gray-400'/></a></span>
           <span ><a href ="https://github.com/Doguhannilt" target='_blank'><FaGithub  className='hidden md:block md:mt-2 cursor-pointer text-white md:size-6   hover:text-gray-400'/></a></span>
-     
+          <span ><a href ="https://www.linkedin.com/in/doguhan-ilter/" target='_blank'><FaLinkedin  className='hidden md:block md:mt-2 text-white cursor-pointer md:size-6   hover:text-gray-400'/></a></span>
+
       </div>
     </div>
   )
