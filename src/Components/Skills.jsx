@@ -28,7 +28,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <TableContainer>
-      <Table variant='striped' colorScheme='teal'>
+      <Table variant='striped' colorScheme='teal' className="text-white">
         <Thead>
           <Tr>
             <Th>Category</Th>
