@@ -46,7 +46,7 @@ const About = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: 'easeOut' }}
       >
-        About Me
+       🛠️ About Me 🛠️
       </motion.h2>
       <motion.p
         className="text-lg mb-4"
