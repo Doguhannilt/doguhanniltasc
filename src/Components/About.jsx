@@ -39,7 +39,7 @@ const About = () => {
       }}
     >
 
-      <div className='md:mt-10 md:xl:ml-40 text-gray-900 font-bold md:text-gray-700 md:font-bold md:text-center md:xl:text-2xl'>
+      <div className='md:mt-10 md:xl:ml-40 text-black font-bold md:text-gray-700 md:font-bold md:text-center md:xl:text-2xl'>
       <motion.h2
         className="text-2xl font-bold mb-4 text-center pt-10 xl:ml-20"
         initial={{ opacity: 0, y: 20 }}
