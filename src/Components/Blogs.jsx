@@ -51,18 +51,18 @@ const Blogs = () => {
                     <motion.div
                         key={index}
                         ref={ref}
-                        className="w-full md:w-1/3 bg-gray-800 rounded-lg shadow-lg overflow-hidden"
+                        className="w-full md:w-1/3 bg-transparent border border-slate-800 hover:border-slate-600 drop-shadow-xl rounded-lg shadow-2xl border-opacity-50 hover:border-opacity-100 overflow-hidden"
                         initial="hidden"
                         animate={controls}
                         variants={cardVariants}
                         transition={{ duration: 0.6, delay: index * 0.2 }}
                     >
-                        <Link to={blog.to} className="block overflow-auto h-60 max-w-sm p-6 hover:h-80 bg-white  hover:duration-300 duration-300 border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <Link to={blog.to} className="block h-60 max-w-sm p-6 hover:h-80 bg-white  hover:duration-300 duration-300 border-gray-200 rounded-lg shadow bg-transparent">
                             <div className="relative">
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{blog.title}</h5>
-                                <p className="font-normal text-gray-700 dark:text-gray-400">{blog.description}</p>
+                                <h5 className="mb-2 text-2xl font-bold  text-gray-900 dark:text-white">{blog.title}</h5>
+                                <p className="font-normal text-gray-700  dark:text-gray-400">{blog.description}</p>
                                 <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                                    <span className="bg-gray-800 text-white p-2 rounded-lg">View the details...</span>
+                                    <span className="bg-gray-600 text-white p-2 rounded-lg">View the details...</span>
                                 </div>
                             </div>
                         </Link>
