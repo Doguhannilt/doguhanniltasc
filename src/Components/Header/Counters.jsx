@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import { motion } from 'framer-motion';
+
 
 const Counters = () => {
     
@@ -16,10 +18,15 @@ const Counter = ({ targetValue, label }) => {
     }, [currentValue, targetValue]);
   
     return (
-      <div className="text-center md:border-r">
+      <motion.div
+        initial={{}}
+        whileHover={{
+          scale: 1.2
+        }}
+        className="text-center md:border-r">
         <h6 className="text-4xl font-bold lg:text-5xl xl:text-6xl hover:opacity-50">{currentValue}</h6>
         <p className="text-sm font-medium tracking-widest uppercase lg:text-base">{label}</p>
-      </div>
+      </motion.div>
     );
   };
   return (

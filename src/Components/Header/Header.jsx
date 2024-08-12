@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
+import {
+  FaArrowDown,
+  FaArrowUp
+} from "react-icons/fa";
 
 
 const Header = () => {
@@ -18,12 +22,7 @@ const Header = () => {
     >
       🛠️ About Me 🛠️
     </motion.h2>
-    <motion.p
-      className="text-lg mb-4"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1, ease: 'easeOut' }}
-    >
+    <motion.p className="text-lg mb-4" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: 'easeOut' }}>
       Hello! I'm Doguhan, a passionate developer with a strong foundation in both web and app development. My expertise spans across a variety of technologies and tools, including Python and JavaScript, React, Node.js, and Express.js. I also have experience working with databases like MongoDB and MySQL, and I'm skilled in using Redux and RTK Query for state management.
     </motion.p>
     {isExpanded && (
@@ -38,9 +37,10 @@ const Header = () => {
     )}
     <button
       onClick={toggleExpand}
-      className="mt-4 px-4 py-2 text-center xl:ml-20 bg-gray-500 opacity-50 hover:opacity-100 duration-500 text-white rounded-lg focus:outline-none hover:bg-gray-900 transition  ease-in-out"
-    >
-      {isExpanded ? 'Show Less' : 'Show More'}
+      className="mt-4 px-4 py-2 text-center xl:ml-20 opacity-50 hover:opacity-100 duration-500 text-white rounded-lg focus:outline-none  transition  ease-in-out">
+        {isExpanded
+          ? <motion.div> <FaArrowUp /> </motion.div>
+          : <motion.div initial={{rotate:0}} whileHover={{rotate:180, scale:1.2}}> <FaArrowDown /> </motion.div>}
     </button>
   </div>
   )
