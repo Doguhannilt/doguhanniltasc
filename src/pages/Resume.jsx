@@ -1,6 +1,6 @@
 import React from 'react'
-import Resume_Config from'./Resume/Resume_Config'
-import Resume_Card from './Resume/Resume_Card'
+import Resume_Config from'./Cv_Card/Resume_Config'
+import Resume_Card from './Cv_Card/Resume_Card'
 
 
 const Resume = () => {
