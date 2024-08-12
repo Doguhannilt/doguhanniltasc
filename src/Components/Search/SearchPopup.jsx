@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { blogs } from '../Content/blogs';
+import {blogs} from '../../Content/blogs'
 import { Input, List, ListIcon, ListItem } from '@chakra-ui/react';
 import { MdCheckCircle } from 'react-icons/md';
 

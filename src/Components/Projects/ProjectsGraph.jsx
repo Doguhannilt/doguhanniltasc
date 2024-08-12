@@ -1,8 +1,12 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { Line } from 'react-chartjs-2';
+
+{/* Framer Motion */}
 import { motion, useAnimation } from 'framer-motion';
+
+{/* Registering Chart.js components */ }
+import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
-import { chartData, dynamicData, projectDurationsInWeeks } from '../Data/Chart/Chart';
+import { chartData, dynamicData, projectDurationsInWeeks } from '../../Data/Chart/Chart';
 
 // Registering Chart.js components
 ChartJS.register(

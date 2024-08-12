@@ -4,7 +4,7 @@ import {  BrowserRouter as Router } from 'react-router-dom'
 import AppRoutes from './AppRoutes';
 
 // Chakra UI
-import { ChakraProvider, extendTheme } from '@chakra-ui/react';
+import { ChakraProvider } from '@chakra-ui/react';
 // CSS
 import "./index.css/"
 

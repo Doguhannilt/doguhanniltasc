@@ -1,5 +1,5 @@
 import React from 'react'
-import PDF from '../cv.pdf'
+import PDF from './cv.pdf'
 
 const Resume_Config = () => {
   return (

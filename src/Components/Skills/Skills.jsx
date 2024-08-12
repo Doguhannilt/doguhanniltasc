@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
-import { skillsData } from '../Data/Chart/SkillsChart';
-import { chartData, chartOptions } from '../Data/Chart/SkillsChart';
+import { skillsData } from '../../Data/Chart/SkillsChart';
+import { chartData, chartOptions } from '../../Data/Chart/SkillsChart';
 
 const Skills = () => {
   return (

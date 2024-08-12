@@ -1,10 +1,10 @@
-import {Routes, Route, Navigate} from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 
 // PAGES
 import HomePage from './pages/HomePage'
 import Layout from './layouts/Layout'
-import DetailedBlogs from './Components/DetailedBlogs'
-import Resume from './pages/Resume'
+import DetailedBlogs from './Components/Details/DetailedBlogs'
+import Resume from './pages/Resume/Resume'
 
 
 // BLOGS
@@ -20,19 +20,20 @@ import CoffeAddiction from './Blogs/CoffeAddiction'
 
 
 const AppRoutes = () => {
-    return(
-        <Routes >
-            <Route  path = "/"  element={<Layout><HomePage /></Layout>}/>
-            <Route path="pages/blogs" element={<Layout><DetailedBlogs/></Layout>}></Route>
-            <Route path="Resume" element = {<Layout><Resume /></Layout>}></Route>
-            <Route path="blogs/1" element={<Layout><JWT/></Layout>}></Route>
-            <Route path="blogs/2" element={<Layout><Auth0/></Layout>}></Route>
-            <Route path="blogs/3" element={<Layout><UseForm/></Layout>}></Route>
-            <Route path="blogs/4" element={<Layout><WhatisRedux/></Layout>}></Route>
-            <Route path="blogs/5" element={<Layout><BasicDokerization/></Layout>}></Route>
-            <Route path="blogs/6" element={<Layout><CoffeAddiction/></Layout>}></Route>
-            
+    return (
+        <Routes>
+            {/* PAGES */}
+            <Route path="/" element={<Layout><HomePage /></Layout>} />
+            <Route path="pages/blogs" element={<Layout><DetailedBlogs /></Layout>}></Route>
+            <Route path="Resume" element={<Layout><Resume /></Layout>}></Route>
 
+            {/* BLOGS */}
+            <Route path="blogs/1" element={<Layout><JWT /></Layout>}></Route>
+            <Route path="blogs/2" element={<Layout><Auth0 /></Layout>}></Route>
+            <Route path="blogs/3" element={<Layout><UseForm /></Layout>}></Route>
+            <Route path="blogs/4" element={<Layout><WhatisRedux /></Layout>}></Route>
+            <Route path="blogs/5" element={<Layout><BasicDokerization /></Layout>}></Route>
+            <Route path="blogs/6" element={<Layout><CoffeAddiction /></Layout>}></Route>
         </Routes>
     )
 }
