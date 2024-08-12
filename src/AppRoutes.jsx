@@ -4,7 +4,7 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import Layout from './layouts/Layout'
 import DetailedBlogs from './Components/Details/DetailedBlogs'
-import Resume from './pages/Resume/Resume.jsx'
+import Resume from './pages/Resume'
 
 
 // BLOGS
