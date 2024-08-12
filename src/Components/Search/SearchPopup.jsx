@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+{/* BLOGS */}
 import {blogs} from '../../Content/blogs'
+{/* COMPONENTS */}
 import { Input, List, ListIcon, ListItem } from '@chakra-ui/react';
 import { MdCheckCircle } from 'react-icons/md';
+import { Link } from 'react-router-dom';
+
 
 const SearchPopup = () => {
     const [searchTerm, setSearchTerm] = useState('');

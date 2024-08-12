@@ -1,5 +1,7 @@
 import { Divider } from '@chakra-ui/react'
 import React from 'react'
+
+{/* COMPONENTS */}
 import GithubStats from '../Components/Github/GithubStats'
 import Skills from '../Components/Skills/Skills'
 import Blogs from '../Components/Blogs/Blogs'

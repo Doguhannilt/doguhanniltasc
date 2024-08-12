@@ -19,12 +19,6 @@ ChartJS.register(
     Legend
 );
 
-
-
-
-
-
-
 const ProjectsGraph = () => {
     const [inView, setInView] = useState(false);
     const controls = useAnimation();

@@ -9,12 +9,8 @@ const DetailedBlogsCard = (props) => {
     }
 
     return (
-      
            <Link key={blog.id} to={`/blogs/${blog.id}`}>
-            <a 
-              href="#" 
-              className="block relative rounded-lg shadow-lg hover:shadow-2xl   mb-20 pb-20 transition-shadow ease-in-out transform  p-6 w-full "
-            >
+            <a href="#"  className="block relative rounded-lg shadow-lg hover:shadow-2xl   mb-20 pb-20 transition-shadow ease-in-out transform  p-6 w-full">
               <h5 className="mb-2 text-2xl font-semibold text-white">{blog.title || ''}</h5>
               <p className="text-white">{blog.content || ''}</p>
               <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2">
@@ -24,7 +20,6 @@ const DetailedBlogsCard = (props) => {
               </div>
             </a>
           </Link>    
-     
     );
   };
   
