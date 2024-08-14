@@ -14,7 +14,7 @@ const ProjectNavigation = () => {
     }
 
     return (
-        <div className="hidden sm:block md:fixed left-0 top-0 h-full bg-black text-white w-64 p-4 shadow-lg">
+        <div className=" md:fixed left-0 top-0 h-full bg-black text-white w-64 p-4 shadow-lg">
             <h2 className="text-2xl font-bold mb-4">Navigation</h2>
             <button className="py-2 px-4 hover:bg-gray-700 w-full text-left rounded-lg" onClick={HomeNavigationHandler}>
                 Home
