@@ -14,6 +14,7 @@ import UseForm from './Blogs/useForm'
 import WhatisRedux from './Blogs/WhatisRedux'
 import BasicDokerization from './Blogs/BasicDokerization'
 import CoffeAddiction from './Blogs/CoffeAddiction'
+import ProjectTab from './ProjectScreen/ProjectTab'
 
 
 
@@ -26,6 +27,7 @@ const AppRoutes = () => {
             <Route path="/" element={<Layout><HomePage /></Layout>} />
             <Route path="pages/blogs" element={<Layout><DetailedBlogs /></Layout>}></Route>
             <Route path="Resume" element={<Layout><Resume /></Layout>}></Route>
+            <Route path="Projects" element={ <Layout><ProjectTab/></Layout> } />
 
             {/* BLOGS */}
             <Route path="blogs/1" element={<Layout><JWT /></Layout>}></Route>

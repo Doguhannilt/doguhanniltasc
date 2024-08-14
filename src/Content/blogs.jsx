@@ -75,7 +75,8 @@ export const pages = [
   },
   {
     id:3, page_url:"/Resume", page_content: "Resume"
-  }
+  },
+
 ]
 
 

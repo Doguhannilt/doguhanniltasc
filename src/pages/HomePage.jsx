@@ -11,6 +11,7 @@ import ProjectsGraph from '../Components/Projects/ProjectsGraph'
 import About from '../Components/Header/About'
 
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   return (
@@ -25,19 +26,11 @@ const HomePage = () => {
           <motion.div
           whileHover={{ scale: 1.2 }}
           >
-            <a href="https://github.com/Doguhannilt?tab=repositories">You Want More?</a>
+           <Link to="/projects">You Want More?</Link>
           </motion.div>
 
         </span>
-        <motion.img
-          src="https://avatars.githubusercontent.com/u/77373443?s=400&u=fae89f65b12ba5130ff1396ab1d971409c1236cc&v=4"
-          alt="Profile"
-          className="absolute -top-16 left-1/2 transform -translate-x-1/2 w-32 h-32 rounded-full opacity-0 group-hover:opacity-100"
-          style={{ rotate: '10deg' }} // Hafif rotasyon
-          initial={{ opacity: 0, y: 0, }}
-          whileTap={{ opacity: 1, x:0 }}
-          transition={{ duration: 0.5 }}
-        />
+
       </div>
       <Projects />
       <Divider />
