@@ -51,5 +51,13 @@ export const ProjectsTabDataList = [
         githubLink: "https://github.com/Doguhannilt/Penguin-Prediction",
         tools: ['Scikit Learn', 'Pandas', 'Numpy', 'Pickle'],
         features: ['Data Preprocessing', 'Classification', 'Model Building', 'Model Deployment']
+    },
+    {
+        id: "twitter-clone-backend",
+        title: "Twitter Clone Backend",
+        image: "https://raw.githubusercontent.com/Doguhannilt/twitter-clone/master/Twitter-doguhanniltasc.png",
+        githubLink: "https://github.com/Doguhannilt/twitter-clone",
+        tools: ['NodeJS', 'ExpressJS', 'MongoDB'],
+        features: ['Authentication', 'User Management', 'Post Management', 'Comment Management']
     }
 ]
