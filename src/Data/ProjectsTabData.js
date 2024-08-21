@@ -59,5 +59,13 @@ export const ProjectsTabDataList = [
         githubLink: "https://github.com/Doguhannilt/twitter-clone",
         tools: ['NodeJS', 'ExpressJS', 'MongoDB'],
         features: ['Authentication', 'User Management', 'Post Management', 'Comment Management']
+    },
+    {
+        id: "cryptoasc",
+        title: "CryptoASC",
+        image: "https://raw.githubusercontent.com/Doguhannilt/Cryptoasc/master/icon.png",
+        githubLink: "https://github.com/Doguhannilt/Cryptoasc",
+        tools: ['TailwindCSS', 'RTK Query', 'Redux', 'Vite'],
+        features: ['User-Friendly Interface', 'Real-Time Updates', 'Data Visualization']
     }
 ]
