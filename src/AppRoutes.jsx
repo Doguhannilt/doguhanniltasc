@@ -15,6 +15,7 @@ import WhatisRedux from './Blogs/WhatisRedux'
 import BasicDokerization from './Blogs/BasicDokerization'
 import CoffeAddiction from './Blogs/CoffeAddiction'
 import ProjectTab from './ProjectScreen/ProjectTab'
+import PreRenderingMethods from './Blogs/Pre-Rendering-NextJS'
 
 
 
@@ -33,9 +34,10 @@ const AppRoutes = () => {
             <Route path="blogs/1" element={<Layout><JWT /></Layout>}></Route>
             <Route path="blogs/2" element={<Layout><Auth0 /></Layout>}></Route>
             <Route path="blogs/3" element={<Layout><UseForm /></Layout>}></Route>
-            <Route path="blogs/4" element={<Layout><WhatisRedux /></Layout>}></Route>
+            <Route path="blogs/4" element={<Layout><PreRenderingMethods/></Layout>}></Route>
             <Route path="blogs/5" element={<Layout><BasicDokerization /></Layout>}></Route>
             <Route path="blogs/6" element={<Layout><CoffeAddiction /></Layout>}></Route>
+
         </Routes>
     )
 }

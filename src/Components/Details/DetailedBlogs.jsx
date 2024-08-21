@@ -8,7 +8,7 @@ import DetailedBlogsCard from './DetailedBlogsCard';
 
 const DetailedBlogs = () => {
   return (
-    <div className='flex flex-col items-center justify-center h-full w-full md:pl-60 mt-20  mb-10'>
+    <div className='flex flex-col items-center justify-center h-full w-full  mt-20  mb-10'>
       <p className='text-3xl font-bold text-center text-white mb-6'>My Blogs</p>
       <div className='space-y-6 w-full max-w-4xl'>
         {blogs.map(blog => (

@@ -16,20 +16,15 @@ export const blogs = [
   },
   {
     id: 4,
-    title: "Redux and what?",
-    content: "Redux is indeed a crucial skill for modern web development, especially for those working with React or other front-end frameworks. Redux is a predictable state container for JavaScript apps, primarily used with React but also compatible with other libraries and frameworks."
+    title: "Pre Rendering Methods",
+    content: "Static Generation is a pre-rendering method where the HTML of a page is generated at build time."
   },
   {
     id: 5,
-    title: "Basic Dockerization",
-    content: "We use Dockerization to enhance application portability, simplify deployment processes, and ensure consistent environments across different platforms. By encapsulating applications and their dependencies into Docker containers, we achieve greater flexibility, scalability, and reproducibility in software deployment."
-  },
-  {
-    id: 6,
     title: "Coffee Addiction",
     content: "Coffee addiction has become somewhat of a traditional ritual for many developers, serving as a fuel for late-night coding sessions and intense problem-solving marathons. However, while the caffeine boost can be beneficial in keeping focus and productivity high, it's essential to strike a balance and be mindful of potential downsides."
   }
-  ];
+];
 
 
 export const popularGithub = [
@@ -68,13 +63,13 @@ export const popularGithub = [
 
 export const pages = [
   {
-    id:1, page_url: "/", page_content: "Home" 
+    id: 1, page_url: "/", page_content: "Home"
   },
   {
-    id:2, page_url: "/pages/Blogs", page_content: "Blogs" 
+    id: 2, page_url: "/pages/Blogs", page_content: "Blogs"
   },
   {
-    id:3, page_url:"/Resume", page_content: "Resume"
+    id: 3, page_url: "/Resume", page_content: "Resume"
   },
 
 ]
@@ -82,15 +77,15 @@ export const pages = [
 
 export const skilledBlog = [
   {
-    id:1, direct1: "Python", direct2:"Feature Engineering | EDA | Scikit-Learn | Tensorflow" , direct3: "3"
+    id: 1, direct1: "Python", direct2: "Feature Engineering | EDA | Scikit-Learn | Tensorflow", direct3: "3"
   },
 
   {
-    id:2, direct1:"MERN", direct2:"MongoDB | Express.js | React |  Node.js | Redux | Tailwind CSS | Docker | Git ", direct3:"4"
+    id: 2, direct1: "MERN", direct2: "MongoDB | Express.js | React |  Node.js | Redux | Tailwind CSS | Docker | Git ", direct3: "4"
   },
 
   {
-    id:3, direct1:"ML&DL", direct2:"Natural Language Processing | Traditional Algorithms (Regressions and Classifications)",direct3:"3"
+    id: 3, direct1: "ML&DL", direct2: "Natural Language Processing | Traditional Algorithms (Regressions and Classifications)", direct3: "3"
   },
 
   {
