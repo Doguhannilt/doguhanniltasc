@@ -16,6 +16,7 @@ import BasicDokerization from './Blogs/BasicDokerization'
 import CoffeAddiction from './Blogs/CoffeAddiction'
 import ProjectTab from './ProjectScreen/ProjectTab'
 import PreRenderingMethods from './Blogs/Pre-Rendering-NextJS'
+import Java_Data_Structure_A_Quick_Review from './Blogs/Java_Data_Structure_A_Quick_Review'
 
 
 
@@ -37,7 +38,7 @@ const AppRoutes = () => {
             <Route path="blogs/4" element={<Layout><PreRenderingMethods/></Layout>}></Route>
             <Route path="blogs/5" element={<Layout><BasicDokerization /></Layout>}></Route>
             <Route path="blogs/6" element={<Layout><CoffeAddiction /></Layout>}></Route>
-
+            <Route path="blogs/8" element={<Layout><Java_Data_Structure_A_Quick_Review/></Layout>}></Route>
         </Routes>
     )
 }

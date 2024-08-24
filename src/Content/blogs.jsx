@@ -23,6 +23,11 @@ export const blogs = [
     id: 5,
     title: "Coffee Addiction",
     content: "Coffee addiction has become somewhat of a traditional ritual for many developers, serving as a fuel for late-night coding sessions and intense problem-solving marathons. However, while the caffeine boost can be beneficial in keeping focus and productivity high, it's essential to strike a balance and be mindful of potential downsides."
+  },
+  {
+    id: 8,
+    title: "Java Data Structure A Quick Review",
+    content:"Data structures in Java are a group of data elements through which data are stored and organized in the computer so they can be used more efficiently. "
   }
 ];
 
