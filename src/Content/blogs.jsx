@@ -28,6 +28,11 @@ export const blogs = [
     id: 8,
     title: "Java Data Structure A Quick Review",
     content:"Data structures in Java are a group of data elements through which data are stored and organized in the computer so they can be used more efficiently. "
+  },
+  {
+    id: 9,
+    title: "Multithreading and Multitasking",
+    content:"Multithreading is a technique of using multiple threads to perform a certain task. Multitasking is a method of using multiple threads to perform a certain task. "
   }
 ];
 

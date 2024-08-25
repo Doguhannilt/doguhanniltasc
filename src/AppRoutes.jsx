@@ -17,6 +17,7 @@ import CoffeAddiction from './Blogs/CoffeAddiction'
 import ProjectTab from './ProjectScreen/ProjectTab'
 import PreRenderingMethods from './Blogs/Pre-Rendering-NextJS'
 import Java_Data_Structure_A_Quick_Review from './Blogs/Java_Data_Structure_A_Quick_Review'
+import ThreadingAndTasking from './Blogs/ThreadingAndTasking'
 
 
 
@@ -29,16 +30,17 @@ const AppRoutes = () => {
             <Route path="/" element={<Layout><HomePage /></Layout>} />
             <Route path="pages/blogs" element={<Layout><DetailedBlogs /></Layout>}></Route>
             <Route path="Resume" element={<Layout><Resume /></Layout>}></Route>
-            <Route path="Projects" element={ <Layout><ProjectTab/></Layout> } />
+            <Route path="Projects" element={<Layout><ProjectTab /></Layout>} />
 
             {/* BLOGS */}
             <Route path="blogs/1" element={<Layout><JWT /></Layout>}></Route>
             <Route path="blogs/2" element={<Layout><Auth0 /></Layout>}></Route>
             <Route path="blogs/3" element={<Layout><UseForm /></Layout>}></Route>
-            <Route path="blogs/4" element={<Layout><PreRenderingMethods/></Layout>}></Route>
+            <Route path="blogs/4" element={<Layout><PreRenderingMethods /></Layout>}></Route>
             <Route path="blogs/5" element={<Layout><BasicDokerization /></Layout>}></Route>
             <Route path="blogs/6" element={<Layout><CoffeAddiction /></Layout>}></Route>
-            <Route path="blogs/8" element={<Layout><Java_Data_Structure_A_Quick_Review/></Layout>}></Route>
+            <Route path="blogs/8" element={<Layout><Java_Data_Structure_A_Quick_Review /></Layout>}></Route>
+            <Route path="blogs/9" element={<Layout><ThreadingAndTasking /></Layout>}></Route>
         </Routes>
     )
 }
