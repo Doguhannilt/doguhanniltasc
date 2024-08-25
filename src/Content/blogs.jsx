@@ -33,6 +33,11 @@ export const blogs = [
     id: 9,
     title: "Multithreading and Multitasking",
     content:"Multithreading is a technique of using multiple threads to perform a certain task. Multitasking is a method of using multiple threads to perform a certain task. "
+  },
+  {
+    id: 10,
+    title: "Annotation in Spring Boot (Basically)",
+    content:"Annotation in Spring Boot is a way of adding metadata to a class. This metadata can be used by other classes to perform certain tasks. "
   }
 ];
 
