@@ -19,6 +19,7 @@ import PreRenderingMethods from './Blogs/Pre-Rendering-NextJS'
 import Java_Data_Structure_A_Quick_Review from './Blogs/Java_Data_Structure_A_Quick_Review'
 import ThreadingAndTasking from './Blogs/ThreadingAndTasking'
 import AnnotationInSpringBoot from './Blogs/annotationInSpringBoot'
+import ItalianBlog from './Blogs/ItalianBlog'
 
 
 
@@ -43,6 +44,7 @@ const AppRoutes = () => {
             <Route path="blogs/8" element={<Layout><Java_Data_Structure_A_Quick_Review /></Layout>}></Route>
             <Route path="blogs/9" element={<Layout><ThreadingAndTasking /></Layout>}></Route>
             <Route path="blogs/10" element={<Layout><AnnotationInSpringBoot/></Layout>}/>
+            <Route path="blogs/11" element={<Layout><ItalianBlog /></Layout>}></Route>
         </Routes>
     )
 }
