@@ -20,6 +20,7 @@ import Java_Data_Structure_A_Quick_Review from './Blogs/Java_Data_Structure_A_Qu
 import ThreadingAndTasking from './Blogs/ThreadingAndTasking'
 import AnnotationInSpringBoot from './Blogs/annotationInSpringBoot'
 import ItalianBlog from './Blogs/ItalianBlog'
+import JDBCDetailed from './Blogs/JDBCDetailed'
 
 
 
@@ -45,6 +46,7 @@ const AppRoutes = () => {
             <Route path="blogs/9" element={<Layout><ThreadingAndTasking /></Layout>}></Route>
             <Route path="blogs/10" element={<Layout><AnnotationInSpringBoot/></Layout>}/>
             <Route path="blogs/11" element={<Layout><ItalianBlog /></Layout>}></Route>
+            <Route path="blogs/12" element={<Layout><JDBCDetailed/></Layout>}></Route>
         </Routes>
     )
 }

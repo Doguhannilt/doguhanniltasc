@@ -43,6 +43,11 @@ export const blogs = [
     id: 11,
     title: "My Italian Journey",
     content:"I am a beginner in Italian. I have been learning Italian for 3 months. I am still learning. "
+  },
+  {
+    id: 12,
+    title: "JDBC in Java",
+    content:"JDBC is a Java API that provides a standard interface for connecting to a database, executing SQL queries, and retrieving the results. "
   }
 ];
 
