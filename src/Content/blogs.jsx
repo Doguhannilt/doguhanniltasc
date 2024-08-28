@@ -53,6 +53,11 @@ export const blogs = [
     id: 13,
     title: "What is Servlet?",
     content:"Servlet is a Java API that provides a standard interface for connecting to a database, executing SQL queries, and retrieving the results. "
+  },
+  {
+    id: 14,
+    title: "ORM",
+    content:"ORM stands for Object Relational Mapping. It is a technique of mapping objects to relational databases. "
   }
 ];
 

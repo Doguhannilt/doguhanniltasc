@@ -22,6 +22,7 @@ import AnnotationInSpringBoot from './Blogs/annotationInSpringBoot'
 import ItalianBlog from './Blogs/ItalianBlog'
 import JDBCDetailed from './Blogs/JDBCDetailed'
 import ServletInfo from './Blogs/Servlet'
+import ORMAndCRUD from './Blogs/ORM'
 
 
 
@@ -49,6 +50,7 @@ const AppRoutes = () => {
             <Route path="blogs/11" element={<Layout><ItalianBlog /></Layout>}></Route>
             <Route path="blogs/12" element={<Layout><JDBCDetailed/></Layout>}></Route>
             <Route path="blogs/13" element={<Layout><ServletInfo/></Layout>}></Route>
+            <Route path="blogs/14" element={<Layout><ORMAndCRUD/></Layout>}></Route>
         </Routes>
     )
 }

@@ -8,7 +8,7 @@ const AnnotationSection = ({ title, description, isGood }) => (
 );
 
 const AnnotationInSpringBoot = () => (
-  <div className="min-h-screen bg- p-10 font-mono">
+  <div className="min-h-screen p-10 font-mono">
     <header className="mb-12">
       <h1 className="text-2xl font-mono font-bold mb-2">Understanding Spring Framework Annotations and Bean Lifecycle</h1>
       <p className="text-xl font-mono font-bold mb-2 text-white mt-2">A comprehensive guide to Spring Framework annotations and the lifecycle of beans, including simple explanations and practical examples.</p>
