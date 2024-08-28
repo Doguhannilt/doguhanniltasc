@@ -48,6 +48,11 @@ export const blogs = [
     id: 12,
     title: "JDBC in Java",
     content:"JDBC is a Java API that provides a standard interface for connecting to a database, executing SQL queries, and retrieving the results. "
+  },
+  {
+    id: 13,
+    title: "What is Servlet?",
+    content:"Servlet is a Java API that provides a standard interface for connecting to a database, executing SQL queries, and retrieving the results. "
   }
 ];
 
