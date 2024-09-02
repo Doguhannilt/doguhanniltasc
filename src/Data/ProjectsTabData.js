@@ -67,5 +67,13 @@ export const ProjectsTabDataList = [
         githubLink: "https://github.com/Doguhannilt/Cryptoasc",
         tools: ['TailwindCSS', 'RTK Query', 'Redux', 'Vite'],
         features: ['User-Friendly Interface', 'Real-Time Updates', 'Data Visualization']
+    },
+    {
+        id: "mediapulsebackend",
+        title: "MediaPulse Backend",
+        image: "https://www.pngall.com/wp-content/uploads/2016/07/Social-Media-Free-Download-PNG.png",
+        githubLink: "https://github.com/Doguhannilt/MediaPulse-backend",
+        tools: ['NodeJS', 'ExpressJS', 'MongoDB'],
+        features: ['Authentication', 'User Management', 'Post Management', 'Comment Management']
     }
 ]
