@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 import Layout from './layouts/Layout'
 // import DetailedBlogs from './Components/Details/DetailedBlogs'
 import Resume from './pages/Resume'
+import ProjectTab from './ProjectScreen/ProjectTab.jsx' 
 
 // BLOGS
 // import JWT from './Blogs/Jwt.jsx'
