@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage'
 import Layout from './layouts/Layout'
 // import DetailedBlogs from './Components/Details/DetailedBlogs'
 import Resume from './pages/Resume'
-
+import ProjectTab from './projectScreen/ProjectTab.jsx'
 
 // BLOGS
 // import JWT from './Blogs/Jwt.jsx'
@@ -13,7 +13,6 @@ import Resume from './pages/Resume'
 // import UseForm from './Blogs/useForm.jsx'
 // import BasicDokerization from './Blogs/basicDokerization.jsx'
 // import CoffeAddiction from './Blogs/coffeAddiction.jsx'
-// import ProjectTab from './projectScreen/ProjectTab.jsx'
 // import PreRenderingMethods from './Blogs/pre-Rendering-NextJS.jsx'
 // import Java_Data_Structure_A_Quick_Review from './Blogs/java_Data_Structure_A_Quick_Review.jsx'
 // import ThreadingAndTasking from './Blogs/threadingAndTasking.jsx'
