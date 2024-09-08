@@ -12,10 +12,12 @@ import About from '../Components/Header/About'
 
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import SpiderWebBackground from '../SpiderWebBackground'
 
 const HomePage = () => {
   return (
     <div className="bg-black">
+      
       <About />
       <Divider />
       <SearchPopup />
@@ -24,9 +26,9 @@ const HomePage = () => {
       <div className="relative flex justify-center">
         <span className='text-sm text-gray-600 group'>
           <motion.div
-          whileHover={{ scale: 1.2 }}
+            whileHover={{ scale: 1.2 }}
           >
-           <Link to="/projects">You Want More?</Link>
+            <Link to="/projects">You Want More?</Link>
           </motion.div>
 
         </span>
@@ -45,6 +47,7 @@ const HomePage = () => {
       <Skills />
       <div>
       </div>
+      <SpiderWebBackground/>
     </div>
   )
 }

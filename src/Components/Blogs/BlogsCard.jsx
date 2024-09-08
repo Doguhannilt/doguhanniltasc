@@ -25,7 +25,7 @@ const BlogsCard = ({ blog, index }) => {
         };
 
         window.addEventListener('scroll', handleScroll);
-        handleScroll(); // Check on initial render
+        handleScroll();
 
         return () => {
             window.removeEventListener('scroll', handleScroll);

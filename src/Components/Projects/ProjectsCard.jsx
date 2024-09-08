@@ -45,11 +45,12 @@ const ProjectsCard = ({ project, index }) => {
                     alt={project.name}
                     className="w-full h-48 object-cover"
                 />
-            </a>
+           
             <div className="p-6">
-                <h3 className="text-xl font-semibold text-white mb-2">{project.name}</h3>
-                <p className="text-gray-300">{project.description}</p>
+                <h3 className="text-xl hover:scale-105 duration-300 font-semibold text-white mb-2">{project.name}</h3>
+                <p className="text-gray-300 text-xl font-thin ">{project.description}</p>
             </div>
+            </a>
         </motion.div>
     )
 }

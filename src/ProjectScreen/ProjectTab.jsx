@@ -1,9 +1,9 @@
 import React from 'react'
 
 {/*  */}
-import Header from './ProjectComponents/Header'
-import ProjectCardRender from './ProjectComponents/ProjectCardRender'
-import ProjectNavigation from './ProjectComponents/ProjectNavigation'
+import Header from './projectComponents/Header'
+import ProjectCardRender from './projectComponents/ProjectCardRender'
+import ProjectNavigation from './projectComponents/ProjectNavigation'
 
 const ProjectTab = () => {
     return (

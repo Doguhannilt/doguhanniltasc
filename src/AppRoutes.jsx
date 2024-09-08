@@ -8,21 +8,20 @@ import Resume from './pages/Resume'
 
 
 // BLOGS
-import JWT from './Blogs/JWT'
-import Auth0 from './Blogs/AuthO'
+import JWT from './Blogs/jwt'
+import Auth0 from './Blogs/auth0'
 import UseForm from './Blogs/useForm'
-import WhatisRedux from './Blogs/WhatisRedux'
-import BasicDokerization from './Blogs/BasicDokerization'
-import CoffeAddiction from './Blogs/CoffeAddiction'
-import ProjectTab from './ProjectScreen/ProjectTab'
-import PreRenderingMethods from './Blogs/Pre-Rendering-NextJS'
-import Java_Data_Structure_A_Quick_Review from './Blogs/Java_Data_Structure_A_Quick_Review'
-import ThreadingAndTasking from './Blogs/ThreadingAndTasking'
+import BasicDokerization from './Blogs/basicDokerization'
+import CoffeAddiction from './Blogs/coffeAddiction'
+import ProjectTab from './projectScreen/ProjectTab'
+import PreRenderingMethods from './Blogs/pre-Rendering-NextJS'
+import Java_Data_Structure_A_Quick_Review from './Blogs/java_Data_Structure_A_Quick_Review'
+import ThreadingAndTasking from './Blogs/threadingAndTasking'
 import AnnotationInSpringBoot from './Blogs/annotationInSpringBoot'
-import ItalianBlog from './Blogs/ItalianBlog'
-import JDBCDetailed from './Blogs/JDBCDetailed'
-import ServletInfo from './Blogs/Servlet'
-import ORMAndCRUD from './Blogs/ORM'
+import ItalianBlog from './Blogs/italianBlog'
+import JDBCDetailed from './Blogs/jdbcDetailed'
+import ServletInfo from './Blogs/servlet'
+import ORMAndCRUD from './Blogs/orm'
 
 
 

@@ -2,7 +2,7 @@ import React from "react";
 import ChapterOne from "./Chapters/ChapterOne";
 
 // CSS
-import '../Style/ItalianBlog.css';
+import '../style/ItalianBlog.css';
 
 // Image
 import ItalyBanner from '../Images/Italy.jpg';

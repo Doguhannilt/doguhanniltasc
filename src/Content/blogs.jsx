@@ -62,38 +62,7 @@ export const blogs = [
 ];
 
 
-export const popularGithub = [
-  {
-    id: 1,
-    title: "The Formul Forum",
-    content: "Formul Forum serves as a comprehensive platform for participants in the education sector, allowing students, teachers, and other relevant individuals to share their research, writings, suggestions, and aspirations. This platform not only encourages knowledge exchange and discussions but also fosters community building, sharing experiences, and promoting learning within the community, making the learning process richer and more interactive.",
-    feed1: "idea",
-    feed2: "teamwork",
-    feed3: "forum",
-    link: "https://github.com/Doguhannilt/FormulForum",
-    date: "Latest: 16 Mai 2024"
-  },
-  {
-    id: 2,
-    title: "Disease Finder App",
-    content: "The Finding the disease based on symptoms project is an innovative and crucial application of artificial intelligence in the healthcare domain. The primary objective of this project is to provide users with a powerful tool that can assist in identifying potential diseases or health conditions based on the symptoms they report.",
-    feed1: "disease",
-    feed2: "machinelearning",
-    feed3: "healthcare",
-    link: "https://github.com/Doguhannilt/Disease",
-    date: "Latest: 17 September 2024"
-  },
-  {
-    id: 3,
-    title: "Text Classification Using BERT",
-    content: "BERT (Bidirectional Encoder Representations from Transformers) is a powerful natural language processing model that uses a bidirectional approach to language modeling, considering the context from both left and right sides of a word in a sentence.",
-    feed1: "text",
-    feed2: "BERT",
-    feed3: "NLP",
-    link: "https://github.com/Doguhannilt/Text-Classification-Using-BERT",
-    date: "Latest: 15 September 2024"
-  }
-]
+
 
 
 export const pages = [

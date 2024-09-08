@@ -22,11 +22,11 @@ const Header = () => {
     >
       🛠️ About Me 🛠️
     </motion.h2>
-    <motion.p className="text-lg mb-4" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: 'easeOut' }}>
+    <motion.p className="text-lg mb-4 font-thin" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: 'easeOut' }}>
       Hello! I'm Doguhan, a passionate developer with a strong foundation in both web and app development. My expertise spans across a variety of technologies and tools, including Python and JavaScript, React, Node.js, and Express.js. I also have experience working with databases like MongoDB and MySQL, and I'm skilled in using Redux and RTK Query for state management.
     </motion.p>
     {isExpanded && (
-      <div className="mt-4 text-lg space-y-4">
+      <div className="mt-4 text-lg  font-thin space-y-4">
         <p>
           In the realm of machine learning and deep learning, I have a solid understanding of regression, classification, and basic NLP techniques. I also utilize Docker for containerization to streamline development processes.
         </p>
