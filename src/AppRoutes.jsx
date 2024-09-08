@@ -7,22 +7,6 @@ import Layout from './layouts/Layout'
 import Resume from './pages/Resume'
 import ProjectTab from './ProjectScreen/ProjectTab.jsx' 
 
-// BLOGS
-// import JWT from './Blogs/Jwt.jsx'
-// import Auth0 from './Blogs/auth0.jsx'
-// import UseForm from './Blogs/useForm.jsx'
-// import BasicDokerization from './Blogs/basicDokerization.jsx'
-// import CoffeAddiction from './Blogs/coffeAddiction.jsx'
-// import PreRenderingMethods from './Blogs/pre-Rendering-NextJS.jsx'
-// import Java_Data_Structure_A_Quick_Review from './Blogs/java_Data_Structure_A_Quick_Review.jsx'
-// import ThreadingAndTasking from './Blogs/threadingAndTasking.jsx'
-// import AnnotationInSpringBoot from './Blogs/annotationInSpringBoot.jsx'
-// import ItalianBlog from './Blogs/italianBlog.jsx'
-// import JDBCDetailed from './Blogs/jdbcDetailed.jsx'
-// import ServletInfo from './Blogs/servlet.jsx'
-// import ORMAndCRUD from './Blogs/orm.jsx'
-
-
 
 
 

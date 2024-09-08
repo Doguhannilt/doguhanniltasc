@@ -39,6 +39,7 @@ const ProjectsCard = ({ project, index }) => {
             variants={cardVariants}
             transition={{ duration: 0.5, delay: index * 0.2 }}
         >
+            
             <a href={project.link}>
                 <img
                     src={project.image}

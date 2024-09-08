@@ -28,6 +28,7 @@ const ProjectCard = ({ image, title, githubLink, tools, features, id }) => {
 
     return (
         <div id={id} className="h-screen  flex items-center justify-center bg-black text-white p-6">
+           
             <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl mx-auto">
                 <motion.div
                     className="flex-shrink-0  mb-6 md:mb-0"

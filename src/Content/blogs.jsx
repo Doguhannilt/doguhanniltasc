@@ -70,7 +70,7 @@ export const pages = [
     id: 1, page_url: "/", page_content: "Home"
   },
   {
-    id: 2, page_url: "/pages/Blogs", page_content: "Blogs"
+   // id: 2, page_url: "/pages/Blogs", page_content: "Blogs"
   },
   {
     id: 3, page_url: "/Resume", page_content: "Resume"
