@@ -3,20 +3,20 @@ import { motion } from 'framer-motion';
 
 
 const Counters = () => {
-    
-const Counter = ({ targetValue, label }) => {
+
+  const Counter = ({ targetValue, label }) => {
     const [currentValue, setCurrentValue] = useState(0);
-  
+
     useEffect(() => {
       const interval = setInterval(() => {
         if (currentValue < targetValue) {
           setCurrentValue(prevValue => prevValue + 1);
         }
       }, 200);
-  
+
       return () => clearInterval(interval);
     }, [currentValue, targetValue]);
-  
+
     return (
       <motion.div
         initial={{}}
@@ -30,12 +30,11 @@ const Counter = ({ targetValue, label }) => {
     );
   };
   return (
-      <>
-          
-          <Counter targetValue={20} label="AGE" />
-          <Counter targetValue={4} label="Developer Career (years)" />
-          <Counter targetValue={5} label="Full Stack Project" />
-          <Counter targetValue={6} label="Blogs" />
+    <>
+      <Counter targetValue={20} label="AGE" />
+      <Counter targetValue={4} label="Developer Career (years)" />
+      <Counter targetValue={5} label="Full Stack Project" />
+      <Counter targetValue={1} label="Blogs" />
     </>
   )
 }
