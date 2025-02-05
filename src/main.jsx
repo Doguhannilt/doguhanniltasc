@@ -13,7 +13,7 @@ import "./index.css/"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <ChakraProvider>
-    <Router>
+    <Router basename='/portfolio'>
       <AppRoutes/>
     </Router>
     </ChakraProvider>
