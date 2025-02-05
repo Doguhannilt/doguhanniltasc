@@ -1,0 +1,48 @@
+{
+  "name": "vite-project",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://doguhannilt.github.io/portfolio/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@canvasjs/react-charts": "^1.0.2",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^2.1.3",
+    "@react-pdf/renderer": "^3.4.4",
+    "@vercel/analytics": "^1.2.2",
+    "chart.js": "^4.4.3",
+    "framer-motion": "^11.3.24",
+    "gh-pages": "^6.1.1",
+    "highlight.js": "^11.9.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.2.1",
+    "react-pdf": "^8.0.2",
+    "react-router-dom": "^6.22.3",
+    "react-tsparticles": "^2.12.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.2.0"
+  }
+}
